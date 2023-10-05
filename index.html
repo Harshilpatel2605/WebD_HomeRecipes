@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Recipes</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgb(0,0,0,0.55),rgb(0,0,0,0.55),rgb(0,0,0,0.55)) ,url(aa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    margin-top: 19px;
+    width: 100%;
+    height: 150px;
+}
+img{
+    height: 150px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.ul1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.ul1 li{
+    margin-left: 20px;
+    color: white;
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+li:hover{
+    color: black;
+    background-color: white;
+}
+.dropdown-menu{
+    list-style: none;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+.main{
+    text-align: center;
+}
+.topic{
+    color: white;
+    font-size: 70px;
+    margin-top: 170px;
+}
+.span1{
+    color: white;
+    border: 1.5px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Times New Roman';
+    transition: 0.3s ease-in-out;
+}
+.span2{
+    color: white;
+    border: 1.5px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:Georgia;
+    transition: 0.3s ease-in-out;
+}
+.span3{
+    color: white;
+    border: 1.5px solid white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Times New Roman';
+    transition: 0.3s ease-in-out;
+}
+.span1:hover{
+    color: black;
+    background-color: white;
+}
+.span2:hover{
+    color: black;
+    background-color: white;
+}
+.span3:hover{
+    color: black;
+    background-color: white;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span><img class="alignm" src="https://i.postimg.cc/WbJLFc67/logo.png"></span>
+        <span class="menu">
+            <ul class="ul1">
+                <li><b>Home</b></li>
+                <li><b>About</b></li>
+                <li><b>Dessert</b></li>
+                <li><b>Appetizer</b></li>
+                <li><b>Pasta</b></li>
+                <li><b>Salad</b></li>
+                <li><b>Burger</b></li>
+                <li><b>Pizza</b></li>
+                <li><b>More Recipes</b></li>
+            </ul>
+            
+        </span>
+    </div>
+    <div class="main">
+        <h1 class="topic">HOMIE RECIPES</h1>
+        <span class="span1"><b>WATCH VIDEOS</b></span>
+        <span class="span2"><b>BASIC SKILLS</b></span>
+        <span class="span3"><b>LEARN MORE</b></span>
+    </div>
+</body>
+</html>
